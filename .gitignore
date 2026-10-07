@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local configuration with machine-specific dataset paths
+config/config_local.yaml
+
+# PDF outputs
+outputs/*.pdf

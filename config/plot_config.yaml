@@ -1,0 +1,58 @@
+metrics:
+
+  bias:
+    cmap: RdBu_r
+    extend: both
+    default:
+      vmin: -3
+      vmax: 3
+
+  mae:
+    cmap: cividis
+    extend: max
+    default:
+      vmin: 0
+      vmax: 2.5
+
+  rmse:
+    cmap: inferno
+    extend: max
+    default:
+      vmin: 0
+      vmax: 3.0
+
+  correlation:
+    cmap: BuPu
+    extend: min
+    default:
+      vmin: 0.6
+      vmax: 1
+
+
+percentiles:
+
+  temperature:
+    cmap: gist_ncar
+    extend: both
+    default:
+      vmin: 250
+      vmax: 315
+
+
+distributions:
+
+  reference:
+    label: Reference
+    color: black
+
+  ERA5-DownGAN-EC:
+    label: ERA5-DownGAN-EC
+    color: tab:blue
+    
+  cGAN-U-Net-EC:
+    label: cGAN-U-Net-EC
+    color: tab:green
+    
+  DDIM-EC:
+    label: DDIM-EC
+    color: tab:orange

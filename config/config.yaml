@@ -1,0 +1,27 @@
+years:
+  start: 2005
+  end: 2014
+
+models:
+
+  ERA5-DownGAN-EC:
+    directory: /path/to/ERA5-DownGAN/out
+    pattern: <output_filename_pattern>
+    # NetCDF variable name in the output file (e.g. t2m, T_2M)
+    variable: <variable_name>
+
+  cGAN-U-Net-EC:
+    directory: /path/to/UNet_GAN/out
+    pattern: <output_filename_pattern>
+    variable: <variable_name>
+
+  DDIM-EC:
+    directory: /path/to/Diffusion_DDIM/out
+    pattern: <output_filename_pattern>
+    variable: <variable_name>
+
+reference:
+  directory: /path/to/EUROCORDEX
+  pattern: <reference_filename_pattern>
+  variable: <variable_name>
+     
